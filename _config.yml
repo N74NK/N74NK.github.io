@@ -1,14 +1,12 @@
-# google_analytics: UA-NNNNNNNN-N
-# listen_for_clients_preferred_style: true # true or false (default)
+# Site settings
+title:
+email:
+description: > # this means to ignore newlines until "baseurl:"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
 
-header_pages:
-  - index.md
-  - about.md
-  - profile.md
+twitter_username:
+github_username:
 
-footer: 'Developed by <a href="https://github.com/N74NK/">Njank</a>'
-
-style: dark
-
-plugins:
-  - jekyll-seo-tag
+# Build settings
+markdown: kramdown
