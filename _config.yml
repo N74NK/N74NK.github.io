@@ -1,69 +1,37 @@
-# Site settings
-title: N74NK
-email: dindacgr2@gmail.com
-url: https://n74nk.github.io
-description: "Newbie Developer yang malas dengan mimpi ingin Sukses."
-keywords: "N74NK, Njank Yuti, Njank, Njank Soekamti"
-skills: "Web Developer, Python Programing & Graphic Designer"
-meta_author: Njank Yuti
+title: Hello, world! I'm David Freeman
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+permalink: ':title/'
+baseurl: "/flexible-jekyll" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: #if your site has a twitter account, enter it here
 
-# Google webmaster tools
-google_verify:
+# Author Settings
+author: David Freeman # add your name
+author-img: david-freeman.jpg # add your photo
+about-author: I am a web developer focusing on front-end development. Always hungry to keep learning. # add description
+social-twitter: # add your Twitter handle
+social-facebook: # add your Facebook handle
+social-github: artemsheludko # add your Github handle
+social-linkedin: # add your Linkedin handle
+social-email: # add your Email address
 
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
+# Disqus
+discus-identifier: mr-brown # add your discus identifier
 
-# Contact form:
-# - static : pass through formspree.io to validate email sending
-# - disqus : replace contact form by disqus thread
-# - comment the line below if you want to stick with the default PHP contact form
-# contact: static
+# Tracker
+analytics: # Google Analytics
 
-# If you use disqus you need disqus shortname
-# https://help.disqus.com/customer/portal/articles/466208
-# disqus_shortname: myshortname
-
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary: 18bc9c #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
-
-# Footer settings
-footer:
-  copyright: N74NK
-  location: Location
-  social: Get in Touch
-  credits: Credits
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: facebook
-    url: https://facebook.com/njnk.xnxx
-  - title: youtube
-    url: http://youtube.com/NjankSoekamti
-  - title: instagram
-    url: http://instagram.com/n74nk420
-  - title: github
-    url: http://github.com/N74NK
-
-# Postal address (add as many lines as necessary)
-address:
-  - line: 41257 Cipunagara
-  - line: Cigarukgak, Subang
-
-# Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
-
-# Build settings
+# Build Settings
 markdown: kramdown
-permalink: pretty
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
 
-#for posts
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      permalink: ""
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
