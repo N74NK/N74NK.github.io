@@ -2,9 +2,9 @@
 title: N74NK
 email: dindacgr2@gmail.com
 url: https://n74nk.github.io
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
-skills: "Web Developer - Python Programing - Graphic Designer"
+description: "Newbie Developer yang malas dengan mimpi ingin Sukses."
+keywords: "N74NK, Njank Yuti, Njank, Njank Soekamti"
+skills: "Web Developer, Python Programing & Graphic Designer"
 meta_author: Njank Yuti
 
 # Google webmaster tools
@@ -17,7 +17,7 @@ bing_verify:
 # - static : pass through formspree.io to validate email sending
 # - disqus : replace contact form by disqus thread
 # - comment the line below if you want to stick with the default PHP contact form
-contact: static
+# contact: static
 
 # If you use disqus you need disqus shortname
 # https://help.disqus.com/customer/portal/articles/466208
@@ -33,27 +33,25 @@ color:
 # Footer settings
 footer:
   copyright: N74NK
-  location: Cigarukgak
-  social: Around the Web
+  location: Location
+  social: Get in Touch
   credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
   - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
+    url: https://facebook.com/njnk.xnxx
+  - title: youtube
+    url: http://youtube.com/NjankSoekamti
+  - title: instagram
+    url: http://instagram.com/n74nk420
   - title: github
-    url: http://github.com/jekyll
+    url: http://github.com/N74NK
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 41257 Cigarukgak
-  - line: Cipunagara, Subang
+  - line: 41257 Cipunagara
+  - line: Cigarukgak, Subang
 
 # Credits content
 credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
